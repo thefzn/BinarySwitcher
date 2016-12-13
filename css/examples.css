@@ -1,0 +1,132 @@
+html{
+	background-color: #EEF4F9;
+	background-image: linear-gradient(#EEF4F9,#FFFFFF);
+}
+html,body{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+body {
+	overflow: auto;
+}
+section {
+	background-color:#FFFFFF;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	color: #666;
+	font-size:14px;
+    margin: 20px auto;
+    width: 60%;
+}
+section header{
+	background-color:#3c656b;
+	box-sizing: border-box;
+    padding: 10px;
+	position: relative;
+    width: 100%;
+}
+section header h1{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: normal;
+	margin:0;
+}
+section header h1:before,section h1:after{
+	border: 2px solid #FFF;
+    border-radius: 11px;
+    content: "0";
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 11px;
+    height: 11px;
+    margin: 4px 10px 4px 0;
+    text-indent: 3px;
+    width: 25px;
+}
+section header h1:after{
+	background-color: #FFF;
+	color:#3c656b;
+    content: "1";
+	left: 25px;
+	position: absolute;
+    width: 10px;
+}
+section form{
+    padding: 15px;
+}
+section form p{
+	margin-top:0;
+}
+section footer{
+	clear: both;
+	border-top: 1px dashed #EEE;
+    padding: 15px;
+}
+#addSwitch{
+    background-color: #68c141;
+    border-radius: 15px;
+    color: #FFF;
+	cursor: pointer;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 31px;
+    margin: 15px;
+    text-align: center;
+    width: 30px;
+}
+#switcher {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+#switcher div{
+    border-top: 1px solid #CCC;
+	padding: 5px 10px;
+    text-transform: capitalize;
+}
+#switcher div:first-child{
+    border-top: 0;
+}
+#switcher div button{
+    background: #fd8a8a;
+    border: 2px solid #666;
+    border-radius: 11px;
+    box-sizing: border-box;
+	cursor:pointer;
+    float: right;
+    height: 15px;
+    margin: 1px 0 0;
+	outline:0 none !important;
+    padding: 0;
+    width: 33px;
+}
+#switcher div button:before{
+    background-color: #EEE;
+    border: 2px solid #666;
+    border-radius: 15px;
+	content: "";
+    float: left;
+    height: 15px;
+    margin: -4px -2px 0;
+    width: 15px;
+}
+#switcher div button.active{
+	background-color:#66e846;
+}
+#switcher div button.active:before{
+	float:right;
+}
+#results{
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+	float: left;
+    margin: 15px 0;
+    max-width: 100%;
+    padding: 5px 10px;
+}
