@@ -9,7 +9,7 @@ Each switcher stores something like this:
 
 - First Switch: ON
 - Another Switch: OFF
-- First Switch: OFF
+- Last Switch: OFF
 
 But it stores it in binary strings, something like this:
 
