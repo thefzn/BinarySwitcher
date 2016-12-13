@@ -3,6 +3,22 @@ This is just a small Constructor to create *Binary Switchers*, binary strings (r
 
 Why? You should be asking, well... because I can. Also, I want to practice *[Javascript Binary Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)*... and this is the first idea that came into my mind.
 
+# Graphic Example
+
+Each switcher stores something like this:
+
+- First Switch: ON
+- Another Switch: OFF
+- First Switch: OFF
+
+But it stores it in binary strings, something like this:
+
+```
+001
+```
+
+Each bit represents the status of a switch, 0 means OFF, 1 means ON.
+
 # Usage
 
 Just create a new instance of a Switcher:
