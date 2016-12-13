@@ -19,7 +19,7 @@ mySwitcher.set("another switch",false);
 mySwitcher.set("last switch"); // false by default
 ```
 
-And that's it, you can also consult your switch status by calling "get" method:
+And that's it, you can also check your switch's status by calling "get" method:
 
 ```
 mySwitcher.get("first switch"); // returns true
@@ -27,10 +27,10 @@ mySwitcher.get("last switch"); // returns false
 mySwitcher.get("non-existent switch"); // returns null
 ```
 
-You can consult the names of the switches by calling:
+You can get the list of all of the existing switches by calling:
 
 ```
-mySwitcher.get(); // returns an array with the names of each switch
+mySwitcher.get(); // returns an array with the names of each switch: ["first switch","another switch","last switch"]
 ```
 
 Or update the status of a switch by re-seting the value:
@@ -51,4 +51,6 @@ Or get the binary string as a number:
 mySwitcher.getMap(true); // returns the binary string as a number: 00000000000000000000000000000011 (binary) = 3 (number)
 ```
 
-Aaaaaand that's about it. This is just a test to prove javascript can manipulate binary strings... Conclusion: it is posible, I never said it was useful.
+Aaaaaand that's about it. This is just a test to prove javascript can manipulate binary strings. Conclusion: it is posible... I never said it was useful.
+
+Cheers!
